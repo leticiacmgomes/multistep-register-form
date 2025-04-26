@@ -9,7 +9,6 @@ import { SummaryModal } from './features/summary/SummaryModal.jsx'
 
 /*Components*/
 import { StepMarker } from './components/ui/StepMarker.jsx'
-import { Footer } from './components/ui/Footer.jsx'
 
 function App() {
   
@@ -25,7 +24,6 @@ function App() {
     <div className="App">
       {steps[currentStep]}
       <StepMarker />
-      <Footer />
     </div>
   )
 }
