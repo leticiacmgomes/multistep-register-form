@@ -1,0 +1,22 @@
+.input-container {
+  width: 100%;
+  display: grid;
+  gap: 0.8rem;
+  
+  & label {
+    font-size: 0.75rem;
+    color: #E5E7EB;
+  }
+  
+  & input {
+    width: 95%;
+    padding: 0.8rem 0 0.8rem 0.8rem;
+    border: solid 2px #4D5562;
+    border-radius: 0.5rem;
+    color: #E5E7EB;
+  }
+  
+  & input::placeholder {
+    color: #E5E7EB;
+  }
+}

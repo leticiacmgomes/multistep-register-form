@@ -1,0 +1,21 @@
+.topic {
+  width: 100%;
+  padding: 1rem 2rem;
+  border: solid 1px #4D5562;
+  border-radius: 0.5rem;
+  background-color: #394150;
+  transition: 0.2s;
+}
+
+.topic:hover {
+  scale: 1.05;
+}
+
+.topic:active {
+  scale: 0.950;
+}
+
+.topic.selected {
+  background-color: #5425AF;
+  border: solid 1px #845EEE;
+}

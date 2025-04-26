@@ -1,0 +1,55 @@
+.summary-modal {
+  width: 75%;
+  max-width: 450px;
+  height: 45%;
+  max-height: 400px;
+  background-color: #212936;
+  padding: 1.5rem 2rem;
+  border-radius: 0.8rem;
+  display: grid;
+  place-items: center;
+  
+  & h1 {
+    width: 100%;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #E5E7EB;
+  }
+  
+  & .user-info {
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+    
+    & span {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #E5E7EB;
+      
+      & strong {
+        color: #A1A1A9;
+      }
+    }
+  }
+  
+  & .selected-topics {
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+    
+    & strong {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #A1A1A9;
+    }
+    
+    & ul {
+      font-weight: 600;
+      padding-left: 2rem;
+      list-style-type: disc;
+      color: #E5E7EB;
+      display: grid;
+      gap: 0.8rem;
+    }
+  }
+}
