@@ -4,6 +4,7 @@ button {
   color: #E5E7EB;
   background-color: #845EEE;
   padding: 0.8rem 2rem;
+  border: none;
   border-radius: 2rem;
   display: inline-block;
 }

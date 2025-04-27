@@ -14,9 +14,15 @@
     border: solid 2px #4D5562;
     border-radius: 0.5rem;
     color: #E5E7EB;
+    background-color: transparent;
   }
   
   & input::placeholder {
     color: #E5E7EB;
+  }
+  
+  & input:focus {
+    outline: none;
+    border: solid 2px #E5E7EB;
   }
 }
