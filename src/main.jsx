@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider} from 'react-router-dom'
+import { createHashRouter, RouterProvider} from 'react-router-dom'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { RegisterPage } from './pages/RegisterPage'
@@ -7,7 +7,7 @@ import { SummaryPage } from './pages/SummaryPage'
 import App from './App.jsx'
 import './index.css'
 
-const routes = createBrowserRouter([
+const routes = createHashRouter([
   {
     path: '/',
     element: <App />,
