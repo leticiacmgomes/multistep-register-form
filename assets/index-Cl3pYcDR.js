@@ -165,4 +165,4 @@ Error generating stack: `+a.message+`
   max-width: 500px;
   padding: 3rem 2rem;
   border-radius: 1.5rem;
-`;function ES(){return Ee.jsxs("div",{className:"App",children:[Ee.jsx(SS,{children:Ee.jsx(c1,{})}),Ee.jsx(bS,{})]})}const RS=w1([{path:"/",element:Ee.jsx(ES,{}),children:[{path:"/",element:Ee.jsx(cS,{})},{path:"/topics",element:Ee.jsx(dS,{})},{path:"/summary",element:Ee.jsx(vS,{})}]}]);W1.createRoot(document.getElementById("root")).render(Ee.jsx(H.StrictMode,{children:Ee.jsx(K1,{router:RS})}));
+`;function ES(){return Ee.jsxs("div",{className:"App",children:[Ee.jsx(SS,{children:Ee.jsx(c1,{})}),Ee.jsx(bS,{})]})}const RS=w1([{path:"/",element:Ee.jsx(ES,{}),children:[{index:!0,element:Ee.jsx(cS,{})},{path:"topics",element:Ee.jsx(dS,{})},{path:"summary",element:Ee.jsx(vS,{})}]}]);W1.createRoot(document.getElementById("root")).render(Ee.jsx(H.StrictMode,{children:Ee.jsx(K1,{router:RS})}));
