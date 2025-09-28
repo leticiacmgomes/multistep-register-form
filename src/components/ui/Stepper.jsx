@@ -33,11 +33,12 @@ export const Stepper = () => {
     },
   ];
   const currentPath = useLocation().pathname;
-  const currentIndex = steps.findIndex(element => element.path === currentPath) + 1;
+  const currentIndex =
+    steps.findIndex((element) => element.path === currentPath) + 1;
 
   return (
     <StepperWrapper>
-      <span style={{color: '#A1A1A9'}}>Step {currentIndex} of 3</span>
+      <span style={{ color: "#A1A1A9" }}>Step {currentIndex} of 3</span>
       <div style={{ display: "flex", gap: "0.5rem" }}>
         {steps.map((element) => (
           <Marker

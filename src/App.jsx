@@ -1,8 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { styled } from "styled-components";
-
-import "./App.css";
 import { Stepper } from "./components/ui/Stepper";
+import "./App.css";
 
 const WrapperOutlet = styled.div`
   background-color: #212936;
